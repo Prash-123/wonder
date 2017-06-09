@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Add User</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+         
+       body {
+      background-image: url(task.jpg);
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-backgroubd-size:cover;
+      background-size: cover;}
+       #aa{
+           width: 400px;
+           height: 800px;
+		    
+           background-color: rgba(255,255,255,1);
+           margin: auto;
+           margin-top: 100px;
+           padding-top: 10px;
+           padding-left: 50px;
+           border-radius: 15px;
+           -webkit-background-radius:15px;
+      -moz-background-radius: 15px;
+      -o-backgroubd-radius:15px; 
+      color:white;
+      font-weight: bolder;
+      /*box-shadow:  inset 20px white;*/
+      box-shadow: 0px 0px 15px white;
+       }
+ 
+    
+
+   
+   
+  
+     #aa:hover{
+         box-shadow: 0px 0px 15px gold;
+     }
+	 h2{
+	 color:black;
+	 }
+     h2:hover{
+	  color: blue;
+	  font-size: 30px;
+         text-shadow: 0px 0px 25px gold;
+     }
+	 h3
+	 { color:black;
+	 }
+    a{
+	 color:black;
+	}
+    
+        </style>
+      
+    </head>
+    <body>
+        
+         <div id="aa">
+            <h2>
+            Add User
+            </h2>
+            
+               
+                       <div id="aaa12">
+<form action="add.php" method="post">					   
+
+<h3>First name: </h3> <input type="text" name="first_name" />
+</br></br>
+<h3>Last name: </h3> <input type="text" name="last_name" />
+</br></br>
+<h3>E-mail: </h3> <input type="text" name="Email" />
+</br></br>
+<h3>Gender: </h3>
+ <div id="aaa123">
+ <input type="radio" name="rad" value="Male" ><a>Male</a>
+<input type="radio" name="rad" value="Female" ><a>Female</a>
+
+
+</br></br>
+<h3>Education: </h3><select name="dropdown">
+<option value="B.E." selected>B.E.</option>
+<option value="B.Sc.">B.Sc.</option>
+<option value="B.A.">B.A.</option>
+<option value="B.A.">B.S.</option>
+<option value="B.Com.">B.Com.</option>
+</select>
+</br></br>
+<h3>Skills: </h3> <textarea rows="4" cols="30" name="tarea">
+
+</textarea>
+</br></br>
+<input type="submit" Value ="Submit">
+ 
+</form>
+           
+          
+           
+		      </div> 
+        </div>
+		
+        
+   
+          
+    </body>
+</html>
