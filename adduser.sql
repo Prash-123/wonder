@@ -1,7 +1,7 @@
 -- phpMyAdmin SQL Dump
 -- version 4.5.1
 -- http://www.phpmyadmin.net
---
+-- table data for web page
 -- Host: 127.0.0.1
 -- Generation Time: Jun 09, 2017 at 08:59 PM
 -- Server version: 10.1.19-MariaDB
